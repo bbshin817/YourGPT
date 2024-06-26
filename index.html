@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourGPT</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon/favicon_512x512.webp" type="image/webp" sizes="512x512">
+    <link rel="shortcut icon" href="./favicon/favicon_256x256.webp" type="image/webp" sizes="256x256">
+    <link rel="shortcut icon" href="./favicon/favicon_128x128.webp" type="image/webp" sizes="128x128">
+    <link rel="shortcut icon" href="./favicon/favicon_64x64.webp" type="image/webp" sizes="64x64">
+<noscript></head>
+<body></noscript>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+<chat>
+    <ct class="header">
+        <text class="logo-label">YourGPT</text>
+        <svg viewBox="0 0 24 24" fill="none">
+            <path d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z" fill="#b4b4b4"/>
+        </svg>
+    </ct>
+    <ct class="body">
+        <gpt-big-icon>
+            <text class="gpt-big-icon-label">何かお手伝いできることはありますか？</text>
+        </gpt-big-icon>
+    </ct>
+    <ct class="footer">
+        <textbox>
+            <svg class="clip" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path fill="currentColor" fill-rule="evenodd" d="M9 7a5 5 0 0 1 10 0v8a7 7 0 1 1-14 0V9a1 1 0 0 1 2 0v6a5 5 0 0 0 10 0V7a3 3 0 1 0-6 0v8a1 1 0 1 0 2 0V9a1 1 0 1 1 2 0v6a3 3 0 1 1-6 0z" clip-rule="evenodd"></path>
+            </svg>
+            <textarea id="t" class="chat-input" placeholder="YourGPT にメッセージを送信する"></textarea>
+            <svg state="false" class="submit" width="32" height="32" fill="none" viewBox="0 0 32 32" class="icon-2xl">
+                <path fill="currentColor" fill-rule="evenodd" d="M15.192 8.906a1.143 1.143 0 0 1 1.616 0l5.143 5.143a1.143 1.143 0 0 1-1.616 1.616l-3.192-3.192v9.813a1.143 1.143 0 0 1-2.286 0v-9.813l-3.192 3.192a1.143 1.143 0 1 1-1.616-1.616z" clip-rule="evenodd"></path>
+            </svg>
+        </textbox>
+        <text class="alert">YourGPTは、事前に設定されたメッセージのみを返します。</text>
+    </ct>
+</chat>
+</body>
+</html>
