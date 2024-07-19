@@ -4,7 +4,7 @@ $(function(){
 		msgs : [],
 		load : () => {
 			return new Promise(async (resolve) => {
-				gptResponse.msgs = await (await fetch("/msgs.json")).json();
+				gptResponse.msgs = await (await fetch("msgs.json")).json();
 			});
 		}
 	};
