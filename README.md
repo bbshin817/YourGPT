@@ -3,6 +3,8 @@
 ## 使い方
 同梱の**msgs.json**へ、配列形式でメッセージを記述します。
 YourGPTは、与えられているメッセージを上から順番に出力します。
+### Sample
+[YourGPT on github pages](https://bbshin817.github.io/YourGPT/)
 ### msgs.json
 ```json
 [
